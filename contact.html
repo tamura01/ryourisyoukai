@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お問い合わせ | KUJIRA Cafe</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+	<!-- ヘッダー -->
+	<header class="header">
+		<h1 class="logo"><a href="index.html">～お料理紹介サイト～</a></h1>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="menu.html">メニュー</a></li>
+				<li><a href="about.html">店舗案内</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- ヘッダー ここまで -->
+	<!-- メイン -->
+	<main>
+		<h2>お問い合わせ</h2>
+		<form method="GET" action="result.html">
+			<div>
+				<label for="namae">お名前</label><br>
+				<input type="text" name="お名前" placeholder="お名前"></label>
+			</div>
+			<div>
+				性別<br>
+				<label><input type="radio" name="性別" value="男性" checked>男性</label>
+				<label><input type="radio" name="性別" value="女性">女性</label>
+				
+			</div>
+			<div>
+				<label for="namae">メールアドレス</label><br>
+				<input type="text" name="メールアドレス" placeholder="メールアドレス"></label>
+			</div>
+			<div>
+				当サイトをお知りになったきっかけは？<br>
+				<label><input type="checkbox" name="当サイトをお知りになったきっかけは？" value="検索から">検索から</label>
+				<label><input type="checkbox" name="当サイトをお知りになったきっかけは？" value="SNSから">SNSから</label>
+				<label><input type="checkbox" name="当サイトをお知りになったきっかけは？" value="知り合いの紹介で">知り合いの紹介で</label>
+			</div>
+			<div>
+				<label>お問い合わせの件名<br>
+				<input type="text" name="お問い合わせ" placeholder="お問い合わせ"></label>
+			</div>
+			<div>
+				<label>お問い合わせの具体的な内容<br>
+				<textarea name="お問い合わせの具体的な内容"></textarea></label>
+			</div>
+			<div>
+				<input type="submit" name="送信" value="受け取り">
+			</div>
+		</form>
+	</main>
+	<!-- メイン ここまで -->
+	<!-- フッター -->
+	<footer class="footer">
+		<p>&copy;Copyright oryourisyoukaisite. All rights reserved.</p>
+	</footer>
+	<!-- フッター ここまで -->
+</div>
+</body>
+</html>

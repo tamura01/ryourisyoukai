@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KUJIRA Cafeへようこそ</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+<div class="wrapper">
+	<!-- ヘッダー -->
+	<header class="header">
+		<h1 class="logo"><a href="index.html">～お料理紹介サイト～</a></h1>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="menu.html">メニュー</a></li>
+				<li><a href="about.html">店舗案内</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- ヘッダー ここまで -->
+	<!-- メイン -->
+	<div class="keyvisual">
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide"><img src="images/toppage/top.jpg" ></div>
+			  <div class="swiper-slide"><img src="images/toppage/top2.jpg" ></div>
+			  <div class="swiper-slide"><img src="images/toppage/top3.jpg" ></div>
+			  <div class="swiper-slide"><img src="images/toppage/top4.jpg" ></div>
+			  <div class="swiper-slide"><img src="images/toppage/top5.jpg" ></div>
+			  </div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		  </div>
+	</div>
+	<main>
+		<h2 class="about">このサイトについて</h2>
+		<p class="about-item">このサイトはお料理とそのお料理を作っているお店を紹介するサイトです<br></p>
+		<p class="about-item">作成日2020年7月4日</p>
+	</main>
+	<!-- メイン ここまで -->
+	<!-- フッター -->
+	<footer class="footer">
+		<p>&copy;Copyright oryourisyoukaisite. All rights reserved.</p>
+	</footer>
+	<!-- フッター ここまで -->
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
